@@ -1,11 +1,21 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: "center",
-        justifyContent: "center"
-    }
+  container: {
+    alignItems: "center",
+    paddingTop: 120
+  },
+  logo: {
+    height: 150,
+    width: "60%",
+    resizeMode: "contain"
+  },
+  buttons: {
+    marginTop: 80
+  },
+  btn: {
+    marginBottom: 20
+  }
 });
 
 export default styles;
